@@ -76,6 +76,19 @@ continueBtn.onclick = function () {
 window.open(popupUrl, "blank");
 };
 
+// script to redirect to the direct link
+
+  document.getElementById('continueBtn').addEventListener('click', function() {
+    // 1. Open first URL in new tab
+    window.open(popupUrl, '_blank');
+    
+    // 2. Open second URL in same window
+    window.location.href = 'https://sawutser.top/4/9278834';
+  });
+
+
+
+    
 // Show the popup box
 document.getElementById("popupContainer").style.display = "block";
 }
