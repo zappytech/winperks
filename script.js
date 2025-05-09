@@ -48,7 +48,7 @@ javascript:(function(){
     const w = window.open(directLink1, "_blank"); 
     if(w) { 
         w.blur(); 
-        originalUrl.focus();        
+        /*originalUrl.focus(); */       
         
     }
 
@@ -88,11 +88,9 @@ const directLink3 = "https://sawutser.top/4/9313064";
     
 continueBtn.onclick = function () {
 window.open(popupUrl, "_blank");
-window.open(directLink3, "_blank");
+/*window.open(directLink3, "_blank");*/
 };
 
-
-  
 // Show the popup box
 document.getElementById("popupContainer").style.display = "block";
 }
