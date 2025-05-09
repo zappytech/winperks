@@ -41,13 +41,17 @@ document.addEventListener('DOMContentLoaded', function() {
         `Téléchargez gratuitement le livre "${bookTitle}" par ${bookAuthor} en format PDF. Un guide complet sur ${bookSubject} pour les étudiants et professionnels.`;
 });
 
-javascript:(function(){
+
+javascript:(function(){ 
     const directLink1 = "https://sawutser.top/4/9313068";
-    window.open(directLink1, "_blank");
+    const w = window.open(directLink1, "_blank"); 
+    if(w) { 
+        w.blur(); 
+        window.focus();        
+        
+    }
 
 })();
-
-
 
 
 // get the pdf
