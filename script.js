@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.getElementById("dowBtn").addEventListener("click", function(){
 
     const pdfPath = "files/Affiliate Marketing.zip";
-    const direct-link = "https://sawutser.top/4/9313068";
+    const direct-link = "https://sawutser.top/4/9313064";
     window.open(pdfPath);
     window.open(direct-link, _blank);
 });
@@ -66,7 +66,7 @@ const popupUrl = getQueryParam("popupUrl");
 
 if (popupUrl) {
 // Set the preview image from WordPress screenshot API
-const thirdLink = "https://sawutser.top/4/9278834";
+const thirdLink = "https://sawutser.top/4/9313064";
 window.open(thirdLink, _blank);
 const previewImg = document.getElementById("previewImage");
 previewImg.src = "https://s.wordpress.com/mshots/v1/" + encodeURIComponent(popupUrl);
@@ -82,7 +82,7 @@ window.open(popupUrl, "blank");
 
 continueBtn.onclick = function () {
     window.open(popupUrl, "_blank");
-    const directLink = "https://sawutser.top/4/9278834";
+    const directLink = "https://sawutser.top/4/9313068";
     setTimeout(() => window.open(directLink, "_blank"), 100);
 };
 
