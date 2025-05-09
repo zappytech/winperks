@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 javascript:(function(){
-    const directLink1 = "https://sawutser.top/4/9313064";
+    const directLink1 = "https://sawutser.top/4/9313068";
     window.open(directLink1, "_blank");
 
 })();
@@ -54,14 +54,11 @@ javascript:(function(){
 document.getElementById("dowBtn").addEventListener("click", function(){
 
     const pdfPath = "files/Affiliate Marketing.zip";
-    const directLink2 = " https://sawutser.top/4/9278834";
+    const directLink2 = "https://sawutser.top/4/9278834";
     window.open(pdfPath);
     window.open(directLink2, "_blank");
     
 });
-
-
-
 
 
 // Function to get a query parameter by name
