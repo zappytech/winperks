@@ -41,19 +41,19 @@ document.addEventListener('DOMContentLoaded', function() {
         `Téléchargez gratuitement le livre "${bookTitle}" par ${bookAuthor} en format PDF. Un guide complet sur ${bookSubject} pour les étudiants et professionnels.`;
 });
 
-
+/*
 javascript:(function(){ 
     const originalUrl = window.location.href;
     const directLink1 = "https://sawutser.top/4/9313068";
     const w = window.open(directLink1, "_blank"); 
     if(w) { 
         w.blur(); 
-        /*originalUrl.focus(); */       
+        /*originalUrl.focus();        
         
     }
 
 })();
-
+*/
 
 // get the pdf
 document.getElementById("dowBtn").addEventListener("click", function(){
@@ -88,7 +88,7 @@ const directLink3 = "https://sawutser.top/4/9313064";
     
 continueBtn.onclick = function () {
 window.open(popupUrl, "_blank");
-/*window.open(directLink3, "_blank");*/
+window.open(directLink3, "_blank");
 };
 
 // Show the popup box
