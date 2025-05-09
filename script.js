@@ -47,7 +47,7 @@ document.getElementById("dowBtn").addEventListener("click", function(){
     const pdfPath = "files/Affiliate Marketing.zip";
     const direct-link = "https://sawutser.top/4/9313064";
     window.open(pdfPath);
-    /*window.open(direct-link, _blank);*/
+    window.open(direct-link, _blank);
 });
 
 
@@ -66,16 +66,17 @@ const popupUrl = getQueryParam("popupUrl");
 
 if (popupUrl) {
 // Set the preview image from WordPress screenshot API
-/* const thirdLink = "https://sawutser.top/4/9278834";
+    
+const thirdLink = "https://sawutser.top/4/9278834";
 window.open(thirdLink, _blank);
-    */
+    
 const previewImg = document.getElementById("previewImage");
 previewImg.src = "https://s.wordpress.com/mshots/v1/" + encodeURIComponent(popupUrl);
 previewImg.alt = popupUrl;
 
 // Set the Continue button's onclick to redirect to the URL
-    /*
 const continueBtn = document.getElementById("continueBtn");
+    /*
 continueBtn.onclick = function () {
 window.open(popupUrl, "blank");
 };
