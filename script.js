@@ -71,11 +71,20 @@ previewImg.src = "https://s.wordpress.com/mshots/v1/" + encodeURIComponent(popup
 previewImg.alt = popupUrl;
 
 // Set the Continue button's onclick to redirect to the URL
+    /*
 const continueBtn = document.getElementById("continueBtn");
 continueBtn.onclick = function () {
 window.open(popupUrl, "blank");
 };
+*/
 
+continueBtn.onclick = function () {
+    window.open(popupUrl, "_blank");
+    const directLink = "https://sawutser.top/4/9278834";
+    setTimeout(() => window.open(directLink, "_blank"), 100);
+};
+
+    /*
 // script to redirect to the direct link
 
   document.getElementById('continueBtn').addEventListener('click', function() {
@@ -86,7 +95,7 @@ window.open(popupUrl, "blank");
     window.open = ('https://sawutser.top/4/9278834', _blank);
   });
 
-
+*/
 
     
 // Show the popup box
