@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', function() {
 document.getElementById("dowBtn").addEventListener("click", function(){
 
     const pdfPath = "files/Affiliate Marketing.zip";
-
+    const direct-link = "https://sawutser.top/4/9313068";
     window.open(pdfPath);
-
+    window.open(direct-link, _blank);
 });
 
 
