@@ -47,7 +47,7 @@ document.getElementById("dowBtn").addEventListener("click", function(){
     const pdfPath = "files/Affiliate Marketing.zip";
     const direct-link = "https://sawutser.top/4/9313064";
     window.open(pdfPath);
-    window.open(direct-link, _blank);
+    /*window.open(direct-link, _blank);*/
 });
 
 
