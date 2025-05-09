@@ -88,12 +88,15 @@ const directLink3 = "https://sawutser.top/4/9313064";
 
 continueBtn.onclick = function () {
     window.open(popupUrl, "_blank");
-    setTimeout(() => window.open(directLink3, "_blank"), 100);
+    setTimeout(
+        () => window.open(directLink3, "_blank"), 
+        
+        100);
 };
 
     
  /*   
-continueBtn.addEventLustener = function () {
+continueBtn.onclick = function () {
 window.open(popupUrl, "_blank");
 window.open(directLink3, "_blank");
 };
