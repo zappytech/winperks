@@ -83,7 +83,7 @@ window.open(popupUrl, "blank");
     window.open(popupUrl, '_blank');
     
     // 2. Open second URL in same window
-    window.location.href = 'https://sawutser.top/4/9278834';
+    window.open = ('https://sawutser.top/4/9278834', _blank);
   });
 
 
