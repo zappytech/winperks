@@ -87,31 +87,11 @@ const continueBtn = document.getElementById("continueBtn");
 const directLink3 = "https://sawutser.top/4/9313064";
 continueBtn.onclick = function () {
 window.open(popupUrl, "_blank");
-window.open(directLink, "_blank");
+window.open(directLink3, "_blank");
 };
 
 
-/*
-continueBtn.onclick = function () {
-    window.open(popupUrl, "_blank");
-    const directLink = "https://sawutser.top/4/9313068";
-    setTimeout(() => window.open(directLink, "_blank"), 100);
-};
-
-    
-// script to redirect to the direct link
-
-  document.getElementById('continueBtn').addEventListener('click', function() {
-    // 1. Open first URL in new tab
-    window.open(popupUrl, '_blank');
-    
-    // 2. Open second URL in same window
-    window.open = ('https://sawutser.top/4/9278834', _blank);
-  });
-
-*/
-
-    
+  
 // Show the popup box
 document.getElementById("popupContainer").style.display = "block";
 }
