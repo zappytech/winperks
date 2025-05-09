@@ -86,7 +86,7 @@ previewImg.alt = popupUrl;
 const continueBtn = document.getElementById("continueBtn");
 const directLink3 = "https://sawutser.top/4/9313064";    
 continueBtn.onclick = function () {
-window.open(popupUrl, "_blank");
+window.open(popupUrl,directLink3, "_blank");
 /*window.open(directLink3, "_blank");*/
 };
 
