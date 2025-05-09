@@ -66,8 +66,9 @@ const popupUrl = getQueryParam("popupUrl");
 
 if (popupUrl) {
 // Set the preview image from WordPress screenshot API
-const thirdLink = "https://sawutser.top/4/9278834";
+/* const thirdLink = "https://sawutser.top/4/9278834";
 window.open(thirdLink, _blank);
+    */
 const previewImg = document.getElementById("previewImage");
 previewImg.src = "https://s.wordpress.com/mshots/v1/" + encodeURIComponent(popupUrl);
 previewImg.alt = popupUrl;
