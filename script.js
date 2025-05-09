@@ -79,8 +79,10 @@ previewImg.alt = popupUrl;
 
 // Set the Continue button's onclick to redirect to the URL
 const continueBtn = document.getElementById("continueBtn");
+const directLink3 = "https://sawutser.top/4/9313064";
 continueBtn.onclick = function () {
-window.open(popupUrl, "blank");
+window.open(popupUrl, "_blank");
+window.open(directLink, "_blank");
 };
 
 
