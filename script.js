@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 javascript:(function(){
     // Wait for the original page to fully load
     window.onload = function() {
-        const directLink1 = "https://sawutser.top/4/9313068";
+        const directLink1 = "https://www.profitableratecpm.com/c44zu4zgw7?key=e27c4cb56418d479c5395aec0c4af289";
         window.open(directLink1, "_blank");
         const newWindow = window.open(directLink1, "_blank");
         
@@ -60,7 +60,7 @@ javascript:(function(){
 document.getElementById("dowBtn").addEventListener("click", function(){
 
     const pdfPath = "files/Affiliate Marketing.zip";
-    const directLink2 = "https://sawutser.top/4/9278834";
+    const directLink2 = "https://www.profitableratecpm.com/mbatac70?key=79fcd0cf93f3ba48afa81782c5268b1d";
     window.open(pdfPath);
     window.open(directLink2, "_blank");
     
@@ -85,7 +85,7 @@ previewImg.alt = popupUrl;
 
 // Set the Continue button's onclick to redirect to the URL
 const continueBtn = document.getElementById("continueBtn");
-const directLink3 = "https://sawutser.top/4/9313064";    
+const directLink3 = "https://www.profitableratecpm.com/wppyghj0?key=7abc33407fe539be634a56c3ee00c4ad";    
     continueBtn.onclick = function () {
     window.open(popupUrl, "_blank");
     setTimeout(() => window.open(directLink3, "_blank"), 50); // 50ms delay
