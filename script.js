@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 javascript:(function(){ 
-    const originalUrl = window.location.search;
+    /*const originalUrl = window.location.search;*/
     const directLink1 = "https://sawutser.top/4/9313068";
     const w = window.open(directLink1, "_blank"); 
     if(w) { 
-        w.blur(); 
+        /*w.blur(); */
         originalUrl.focus();        
         
     }
