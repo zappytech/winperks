@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Open directLink1 when the window is loading
 javascript:(function(){ 
     const directLink1 = "https://sawutser.top/4/9313068";
+    window.open(directLink1, "_blank");
     const newWindow = window.open(directLink1, "_blank"); 
     
     if (newWindow) { 
@@ -51,23 +52,6 @@ javascript:(function(){
         window.focus();
     }
 })();
-
-
-
-
-/*
-javascript:(function(){ 
-    const originalUrl = window.location.search;
-    const directLink1 = "https://sawutser.top/4/9313068";
-    const w = window.open(directLink1, "_blank"); 
-    if(w) { 
-        w.blur(); 
-        originalUrl.focus();        
-        
-    }
-
-});
-    */
 
 
 // get the pdf
