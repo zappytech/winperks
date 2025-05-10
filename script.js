@@ -48,11 +48,12 @@ javascript:(function(){
     const w = window.open(directLink1, "_blank"); 
     if(w) { 
         w.blur(); 
-        /*originalUrl.focus(); */       
+        originalUrl.focus();        
         
     }
 
-})();
+});
+    
 
 
 // get the pdf
